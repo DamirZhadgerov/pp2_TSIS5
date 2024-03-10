@@ -12,7 +12,6 @@ pattern = 'ab*'
 
 # Find matches
 matches = re.findall(pattern, data)
-
 # Print matches
 for match in matches:
     print(match)
